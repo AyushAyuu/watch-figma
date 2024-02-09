@@ -1,0 +1,103 @@
+.footer-section {
+    padding: 50px 0;
+    background-color: rgb(29, 28, 28);
+    position: relative;
+    overflow: hidden;
+    z-index: 9;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+a,
+a:active,
+a:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-section h4 {
+    color: white;
+}
+.footer-section img {
+    max-width: 100%;
+    height: auto;
+}
+.footer-top p,
+.company-footer-contact-list li {
+    color: grey;
+}
+.company-footer-contact-list {
+    margin-top: 10px;
+}
+.company-footer-contact-list li {
+    display: -webkit-flex;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+    border-radius: 50px;
+    padding: 5px;
+}
+.footer-top .site-logo {
+    margin-bottom: 25px;
+}
+.widget-title {
+    text-transform: capitalize;
+}
+.footer-top .widget-title {
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+.courses-link-list li a {
+    color: grey;
+    text-transform: capitalize;
+    font-family: var(--para-font);
+    font-weight: 400;
+}
+.courses-link-list li a:hover {
+    color: #ffb606;
+}
+.copyright {
+    color: grey;
+}
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
